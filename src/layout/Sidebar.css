@@ -1,0 +1,33 @@
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background: #111827;
+  color: white;
+  padding: 20px;
+}
+
+.logo {
+  margin-bottom: 30px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #cbd5e1;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.nav-link:hover {
+  background: #1f2933;
+}
+
+.nav-link.active {
+  background: #2563eb;
+  color: white;
+}
